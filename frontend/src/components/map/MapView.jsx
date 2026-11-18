@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { statusById, sectorById, KAB_CENTER, MAP_COLORS } from "@/lib/constants";
+import { statusById, sectorById, KAB_CENTER } from "@/lib/constants";
 
-// Positron base from OpenFreeMap (no key), recoloured with the AKSINYATA palette
+// Dark positron-style using OpenFreeMap (no key)
 const BASE_STYLE = "https://tiles.openfreemap.org/styles/positron";
 
 export default function MapView({
@@ -37,43 +37,43 @@ export default function MapView({
     map.addControl(new maplibregl.NavigationControl({ showCompass: true }), "bottom-right");
 
     map.on("load", () => {
-      // AKSINYATA palette: ungu, biru, tosca (+ magenta accent) on a deep purple base
+      // Apply dark tint by replacing fill paints
       try {
         const style = map.getStyle();
-        const set = (id, prop, val) => { try { map.setPaintProperty(id, prop, val); } catch {} };
         style.layers.forEach((l) => {
-          const id = l.id;
-          if (l.type === "background") set(id, "background-color", MAP_COLORS.base);
+          if (l.type === "background") {
+            map.setPaintProperty(l.id, "background-color", "#0a1120");
+          }
           if (l.type === "fill") {
-            if (/water|ocean|river|lake/.test(id)) set(id, "fill-color", MAP_COLORS.water);
-            else if (/park|wood|forest|grass|landcover|farmland|wetland/.test(id)) set(id, "fill-color", MAP_COLORS.green);
-            else if (/residential|landuse|urban|suburb/.test(id)) set(id, "fill-color", MAP_COLORS.urban);
-            else if (/building/.test(id)) set(id, "fill-color", MAP_COLORS.building);
-            else set(id, "fill-color", MAP_COLORS.land);
+            const p = l.paint || {};
+            if (l.id.includes("water")) map.setPaintProperty(l.id, "fill-color", "#0b2742");
+            else if (l.id.includes("park") || l.id.includes("wood") || l.id.includes("landcover")) {
+              map.setPaintProperty(l.id, "fill-color", "#102638");
+            } else {
+              map.setPaintProperty(l.id, "fill-color", "#111b2e");
+            }
           }
           if (l.type === "line") {
-            if (/casing/.test(id)) set(id, "line-color", MAP_COLORS.casing);
-            else if (/motorway|trunk|major|primary/.test(id)) set(id, "line-color", MAP_COLORS.roadMajor);
-            else if (/secondary|tertiary/.test(id)) set(id, "line-color", MAP_COLORS.roadMid);
-            else if (/road|highway|minor|street|path|service|track/.test(id)) set(id, "line-color", MAP_COLORS.roadMinor);
-            else if (/rail/.test(id)) set(id, "line-color", MAP_COLORS.rail);
-            else if (/water|river|stream|canal/.test(id)) set(id, "line-color", MAP_COLORS.waterLine);
-            else if (/boundary|admin/.test(id)) set(id, "line-color", MAP_COLORS.boundary);
-            else set(id, "line-color", MAP_COLORS.roadMinor);
+            if (l.id.includes("road") || l.id.includes("highway")) {
+              map.setPaintProperty(l.id, "line-color", "#1f2d4a");
+            } else {
+              map.setPaintProperty(l.id, "line-color", "#1a2740");
+            }
           }
           if (l.type === "symbol") {
-            set(id, "text-color", /water|ocean|river/.test(id) ? MAP_COLORS.labelWater : MAP_COLORS.label);
-            set(id, "text-halo-color", MAP_COLORS.base);
-            set(id, "text-halo-width", 1.2);
+            try {
+              map.setPaintProperty(l.id, "text-color", "#94A3B8");
+              map.setPaintProperty(l.id, "text-halo-color", "#0a1120");
+              map.setPaintProperty(l.id, "text-halo-width", 1.2);
+            } catch {}
           }
         });
 
-        // 3D buildings, coloured by height: ungu (low) -> biru -> tosca (tall)
+        // 3D buildings — ensure composite source has building layer (positron has building fills, we add extrusion from OSM buildings via same vector-tile layer if available)
         const layers = map.getStyle().layers;
         const building = layers.find((l) => l.id === "building" || l.id === "building-top");
         if (building && tilt) {
           try {
-            const height = ["coalesce", ["get", "render_height"], ["get", "height"], 8];
             map.addLayer({
               id: "aks-3d-buildings",
               source: building.source,
@@ -81,15 +81,10 @@ export default function MapView({
               type: "fill-extrusion",
               minzoom: 13,
               paint: {
-                "fill-extrusion-color": [
-                  "interpolate", ["linear"], height,
-                  0, MAP_COLORS.bLow,
-                  15, MAP_COLORS.bMid,
-                  40, MAP_COLORS.bHigh,
-                ],
+                "fill-extrusion-color": "#1b2a44",
                 "fill-extrusion-height": [
                   "interpolate", ["linear"], ["zoom"],
-                  13, 0, 14, height,
+                  13, 0, 14, ["coalesce", ["get", "render_height"], ["get", "height"], 8],
                 ],
                 "fill-extrusion-base": 0,
                 "fill-extrusion-opacity": 0.85,
@@ -146,8 +141,8 @@ export default function MapView({
       el.setAttribute("data-testid", `map-marker-${p.id}`);
       el.innerHTML = `
         <div class="aks-marker-label">${(p.name || "").replace(/\[CONTOH\]\s*/, "").slice(0, 24)}${p.name && p.name.length > 24 ? "…" : ""}</div>
-        <div class="aks-marker-stem" style="background:linear-gradient(${s.hex}, transparent);"></div>
-        <div class="aks-marker-dot" style="background:${s.hex};box-shadow:0 0 0 3px ${s.hex}40, 0 0 12px ${s.hex}aa;"></div>
+        <div class="aks-marker-stem"></div>
+        <div class="aks-marker-dot" style="background:${s.hex};"></div>
       `;
       el.title = `${sec.name} • ${s.label}`;
       el.addEventListener("click", (e) => {
@@ -182,7 +177,7 @@ export default function MapView({
     kecamatan.forEach((k) => {
       const el = document.createElement("div");
       el.style.cssText =
-        `width:10px;height:10px;border-radius:50%;background:${MAP_COLORS.kecDot};border:1px solid rgba(255,255,255,0.45);box-shadow:0 0 8px ${MAP_COLORS.kecDot};cursor:pointer;`;
+        "width:10px;height:10px;border-radius:50%;background:rgba(148,163,184,0.35);border:1px solid rgba(255,255,255,0.3);cursor:pointer;";
       el.title = k.name + (k.is_approximate ? " (lokasi perkiraan)" : "");
       el.setAttribute("data-testid", `kec-dot-${k.id}`);
       el.addEventListener("click", (e) => {
@@ -197,7 +192,7 @@ export default function MapView({
   }, [projects, issues, kecamatan, activeSectors, ready, onProjectClick, onKecamatanClick]);
 
   return (
-    <div className="absolute inset-0" style={{ background: MAP_COLORS.base }}>
+    <div className="absolute inset-0" style={{ background: "#0a1120" }}>
       <div ref={containerRef} data-testid="map-canvas-container" className="w-full h-full" />
     </div>
   );

@@ -9,42 +9,11 @@ export const SECTORS = [
   { id: "layanan", name: "Layanan Publik & Tata Kelola", short: "Layanan", color: "#6366F1", icon: "Building2" },
 ];
 
-// AKSINYATA palette — ungu, biru, tosca (+ magenta accent)
-export const BRAND = {
-  ungu: "#8B5CF6",
-  biru: "#3B82F6",
-  tosca: "#14B8A6",
-  magenta: "#D946EF",
-};
-
 export const STATUS_LIST = [
-  { id: "rencana", label: "Rencana", hex: "#A78BFA", chip: "bg-violet-950/60 text-violet-300 border-violet-500/40" },
-  { id: "berjalan", label: "Berjalan", hex: "#38BDF8", chip: "bg-sky-950/60 text-sky-300 border-sky-500/40" },
-  { id: "selesai", label: "Selesai", hex: "#2DD4BF", chip: "bg-teal-950/60 text-teal-300 border-teal-500/40" },
+  { id: "rencana", label: "Rencana", hex: "#64748B", chip: "bg-slate-800 text-slate-300 border-slate-600" },
+  { id: "berjalan", label: "Berjalan", hex: "#F59E0B", chip: "bg-amber-950/60 text-amber-400 border-amber-500/40" },
+  { id: "selesai", label: "Selesai", hex: "#10B981", chip: "bg-emerald-950/60 text-emerald-400 border-emerald-500/40" },
 ];
-
-// Base-map colours (MapView)
-export const MAP_COLORS = {
-  base: "#140B33",       // deep purple background
-  land: "#1B1242",
-  urban: "#221650",      // settlements: a touch lighter violet
-  building: "#2A1D5C",
-  green: "#0C3B43",      // parks / farmland: dark tosca
-  water: "#0B3A78",      // biru
-  waterLine: "#1D5FB8",
-  casing: "#0F0A26",
-  roadMajor: "#2DD4BF",  // tosca main roads
-  roadMid: "#6D7CF0",    // blue-violet secondary roads
-  roadMinor: "#3A2C78",  // muted ungu small streets
-  rail: "#C026D3",       // magenta accent
-  boundary: "#A78BFA",
-  label: "#E9DDFF",
-  labelWater: "#93C5FD",
-  bLow: "#5B21B6",       // 3D buildings: ungu -> biru -> tosca
-  bMid: "#2563EB",
-  bHigh: "#14B8A6",
-  kecDot: "rgba(45, 212, 191, 0.55)",
-};
 
 export const VERIFICATION_LIST = [
   { id: "draft", label: "Draft", chip: "bg-slate-800 text-slate-300 border-slate-600" },

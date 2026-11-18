@@ -55,7 +55,8 @@ html, body, #root {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  border: 2px solid #140B33;
+  border: 2px solid #0F172A;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
 }
 .aks-marker-stem {
   width: 2px;
@@ -66,8 +67,8 @@ html, body, #root {
   font-family: "JetBrains Mono", ui-monospace, monospace;
   font-size: 10px;
   color: #F8FAFC;
-  background: rgba(30, 16, 72, 0.88);
-  border: 1px solid rgba(167, 139, 250, 0.55);
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid #334155;
   padding: 1px 6px;
   border-radius: 4px;
   margin-top: 2px;
@@ -78,8 +79,7 @@ html, body, #root {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: #F43F5E;
-  box-shadow: 0 0 10px rgba(244, 63, 94, 0.7);
+  background: #EF4444;
   color: white;
   display: flex;
   align-items: center;
