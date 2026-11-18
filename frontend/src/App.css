@@ -1,0 +1,98 @@
+/* AKSINYATA app-wide styles */
+html, body, #root {
+  background: #0a1120;
+}
+
+/* MapLibre popup overrides for dark HUD look */
+.maplibregl-popup {
+  z-index: 20;
+}
+.maplibregl-popup-content {
+  background: rgba(15, 23, 42, 0.95) !important;
+  color: #F8FAFC !important;
+  border: 1px solid #334155 !important;
+  border-radius: 12px !important;
+  padding: 0 !important;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6) !important;
+}
+.maplibregl-popup-close-button {
+  color: #94A3B8 !important;
+  font-size: 20px !important;
+  padding: 4px 8px !important;
+}
+.maplibregl-popup-tip {
+  border-top-color: rgba(15, 23, 42, 0.95) !important;
+  border-bottom-color: rgba(15, 23, 42, 0.95) !important;
+}
+.maplibregl-ctrl-bottom-right,
+.maplibregl-ctrl-bottom-left {
+  display: none;
+}
+.maplibregl-ctrl-top-right {
+  top: 90px !important;
+  right: 16px !important;
+}
+.maplibregl-ctrl-group {
+  background: rgba(15, 23, 42, 0.85) !important;
+  border: 1px solid #334155 !important;
+}
+.maplibregl-ctrl-group button {
+  background-color: transparent !important;
+}
+.maplibregl-ctrl-group button span {
+  filter: invert(1);
+}
+
+/* Status marker custom pin */
+.aks-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transform: translateY(-100%);
+}
+.aks-marker-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #0F172A;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+.aks-marker-stem {
+  width: 2px;
+  height: 20px;
+  background: rgba(0,0,0,0.6);
+}
+.aks-marker-label {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 10px;
+  color: #F8FAFC;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid #334155;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-top: 2px;
+  white-space: nowrap;
+  transform: translateY(-26px);
+}
+.aks-marker-issue {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #EF4444;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  border: 2px solid #0F172A;
+  cursor: pointer;
+}
+
+.scrollbar-slim::-webkit-scrollbar { width: 6px; height: 6px; }
+.scrollbar-slim::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+.scrollbar-slim::-webkit-scrollbar-track { background: transparent; }
+
+/* Hide the stock splash marker */
+[data-emergent-splash] { display: none !important; }

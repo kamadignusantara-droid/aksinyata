@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    margin: 0;
+    background: #0a1120;
+    color: #F8FAFC;
+    font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+code, pre, .mono {
+    font-family: "JetBrains Mono", ui-monospace, "Courier New", monospace;
+}
+
+@layer base {
+    :root {
+        --background: 222 47% 6%;
+        --foreground: 210 40% 98%;
+        --card: 217 33% 11%;
+        --card-foreground: 210 40% 98%;
+        --popover: 217 33% 11%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 189 94% 43%;
+        --primary-foreground: 222 47% 6%;
+        --secondary: 217 33% 17%;
+        --secondary-foreground: 210 40% 98%;
+        --muted: 217 33% 15%;
+        --muted-foreground: 215 20% 65%;
+        --accent: 189 94% 43%;
+        --accent-foreground: 222 47% 6%;
+        --destructive: 0 72% 51%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 217 33% 20%;
+        --input: 217 33% 17%;
+        --ring: 189 94% 43%;
+        --radius: 0.6rem;
+    }
+}
+
+@layer base {
+    * { @apply border-border; }
+    body { @apply bg-background text-foreground; }
+}
+
+/* Soft glow accent */
+.cyan-glow { box-shadow: 0 0 0 1px rgba(6, 182, 212, 0.35), 0 0 20px rgba(6, 182, 212, 0.25); }
+.hud { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08); }
+.hud-strong { background: rgba(10, 17, 32, 0.95); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); border: 1px solid rgba(255,255,255,0.08); }
+.grain {
+    background-image:
+        radial-gradient(ellipse at top, rgba(6, 182, 212, 0.08), transparent 50%),
+        radial-gradient(ellipse at bottom, rgba(99, 102, 241, 0.06), transparent 50%);
+}

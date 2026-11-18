@@ -1,0 +1,209 @@
+{
+  "project_name": "AKSINYATA - Portal Transparansi Pembangunan Kabupaten Tangerang",
+  "app_type": "hybrid_fullstack",
+  "theme": {
+    "mode": "dark_slate_hud",
+    "description": "City-builder (Cities: Skylines 2 info view) inspired dark slate map interface with high-translucency HUD, single primary cyan-accent, and functional status colors for project markers.",
+    "colors": {
+      "map_background": "#0F172A",
+      "map_surface_slate": "#1E293B",
+      "map_border": "rgba(255, 255, 255, 0.1)",
+      "hud_translucent_bg": "rgba(15, 23, 42, 0.75)",
+      "hud_blur": "backdrop-blur-md",
+      "accent_primary": "#06B6D4",
+      "accent_primary_hover": "#0891B2",
+      "accent_glow": "rgba(6, 182, 212, 0.25)",
+      "text_main": "#F8FAFC",
+      "text_muted": "#94A3B8",
+      "text_subtle": "#64748B",
+      "status_colors": {
+        "rencana": {
+          "label": "Rencana",
+          "hex": "#64748B",
+          "badge_bg": "bg-slate-800",
+          "badge_text": "text-slate-300",
+          "border": "border-slate-600"
+        },
+        "berjalan": {
+          "label": "Berjalan",
+          "hex": "#F59E0B",
+          "badge_bg": "bg-amber-950/60",
+          "badge_text": "text-amber-400",
+          "border": "border-amber-500/40"
+        },
+        "selesai": {
+          "label": "Selesai",
+          "hex": "#10B981",
+          "badge_bg": "bg-emerald-950/60",
+          "badge_text": "text-emerald-400",
+          "border": "border-emerald-500/40"
+        }
+      },
+      "issue_warning": "#EF4444",
+      "verification_status": {
+        "draft": "bg-slate-700 text-slate-200 border-slate-500",
+        "sudah_dicek_opd": "bg-indigo-950 text-indigo-300 border-indigo-700",
+        "tayang": "bg-emerald-950 text-emerald-300 border-emerald-600"
+      }
+    }
+  },
+  "typography": {
+    "heading_font": "Plus Jakarta Sans, sans-serif",
+    "body_font": "Plus Jakarta Sans, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "hierarchy": {
+      "h1": "text-3xl sm:text-4xl font-bold tracking-tight text-slate-50",
+      "h2": "text-xl sm:text-2xl font-semibold tracking-tight text-slate-100",
+      "h3": "text-lg font-medium text-slate-100",
+      "body": "text-sm text-slate-300 leading-relaxed",
+      "hud_number": "font-mono font-bold text-xl sm:text-2xl tracking-tight text-cyan-400",
+      "label_caps": "text-[11px] font-mono uppercase tracking-widest text-slate-400"
+    }
+  },
+  "sectors": [
+    {
+      "id": "infrastruktur",
+      "title": "Infrastruktur & Mobilitas",
+      "icon": "Road / Construction / Bus",
+      "color": "#06B6D4"
+    },
+    {
+      "id": "ekonomi",
+      "title": "Ekonomi & UMKM",
+      "icon": "Store / TrendingUp",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "pangan",
+      "title": "Pangan & Pertanian",
+      "icon": "Sprout / Leaf",
+      "color": "#10B981"
+    },
+    {
+      "id": "pendidikan",
+      "title": "Pendidikan",
+      "icon": "GraduationCap / BookOpen",
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "kesehatan",
+      "title": "Kesehatan",
+      "icon": "HeartPulse / Stethoscope",
+      "color": "#EC4899"
+    },
+    {
+      "id": "sosial",
+      "title": "Sosial & Perlindungan",
+      "icon": "ShieldCheck / Users",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "lingkungan",
+      "title": "Lingkungan & Air",
+      "icon": "Droplet / Wind",
+      "color": "#0284C7"
+    },
+    {
+      "id": "layanan",
+      "title": "Layanan Publik & Tata Kelola",
+      "icon": "Building2 / FileText",
+      "color": "#6366F1"
+    }
+  ],
+  "kecamatan_list_29": [
+    "Balaraja", "Cikupa", "Cisauk", "Cisoka", "Curug",
+    "Gunung Kaler", "Jambe", "Jayanti", "Kelapa Dua", "Kemiri",
+    "Kresek", "Kronjo", "Kosambi", "Legok", "Mauk",
+    "Mekar Baru", "Pagerbarang (Pakuhaji)", "Panongan", "Pasar Kemis", "Rajeg",
+    "Sepatan", "Sepatan Timur", "Solear", "Sukadiri", "Sukamulya",
+    "Teluknaga", "Tigaraksa", "Solear", "Sindang Jaya"
+  ],
+  "image_urls": {
+    "education": "https://images.unsplash.com/photo-1549431971-f54b3f5c82d8?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "school_students": "https://images.unsplash.com/photo-1666533835131-5cd525e9e965?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "agriculture": "https://images.unsplash.com/photo-1700906310080-65a7d9718929?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "government_building": "https://images.unsplash.com/photo-1768783034899-3d71781a6f74?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "city_view": "https://images.unsplash.com/photo-1770345743148-7d1915f272fd?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "layout_components": {
+    "hud_top_strip": {
+      "classes": "fixed top-4 left-4 right-4 z-40 bg-slate-900/80 backdrop-blur-md border border-slate-800 rounded-xl p-3 sm:p-4 flex flex-wrap items-center justify-between gap-4 shadow-2xl",
+      "elements": [
+        "County Brand Logo + AKSINYATA title",
+        "Metric 1: Total Proyek (count)",
+        "Metric 2: % Selesai (percentage progress bar)",
+        "Metric 3: Status Breakdown (Rencana / Berjalan / Selesai count)",
+        "Metric 4: Kecamatan Tercover (e.g. 29/29)",
+        "Metric 5: Terakhir Diperbarui (date timestamp)"
+      ]
+    },
+    "sector_toolbar": {
+      "classes": "fixed bottom-6 left-4 z-40 bg-slate-900/85 backdrop-blur-md border border-slate-800 rounded-xl p-2 flex md:flex-col gap-1.5 max-w-full overflow-x-auto shadow-2xl",
+      "interaction": "Single/Multi sector layer toggles with active indicator glow"
+    },
+    "kecamatan_side_panel": {
+      "classes": "fixed right-0 top-0 bottom-0 w-full sm:w-96 z-50 bg-slate-900/95 backdrop-blur-xl border-l border-slate-800 p-6 overflow-y-auto shadow-2xl transition-transform duration-300",
+      "mobile_mode": "Bottom sheet overlay on screens below sm breakpoint"
+    },
+    "project_card_popup": {
+      "classes": "max-w-md bg-slate-900 border border-slate-800 rounded-xl p-4 text-slate-100 shadow-2xl space-y-3",
+      "required_elements": [
+        "Project Title & Sector Tag",
+        "Kecamatan & Village Location",
+        "Status Badge (Rencana / Berjalan / Selesai)",
+        "Progress Bar % with date stamp",
+        "Before / After photo comparison toggle",
+        "Last updated timestamp",
+        "Link to full project detail page"
+      ]
+    }
+  },
+  "page_routes": [
+    { "path": "/", "name": "Beranda (Peta 2.5D)" },
+    { "path": "/sektor", "name": "Sektor Pembangunan" },
+    { "path": "/sektor/:id", "name": "Detail Sektor" },
+    { "path": "/wilayah", "name": "Daftar 29 Kecamatan" },
+    { "path": "/wilayah/:slug", "name": "Detail Kecamatan" },
+    { "path": "/proyek", "name": "Daftar Proyek & Filter" },
+    { "path": "/proyek/:id", "name": "Detail Proyek" },
+    { "path": "/capaian", "name": "Capaian & Target RPJMD" },
+    { "path": "/kabar-lapangan", "name": "Kabar Lapangan & Respons Isu" },
+    { "path": "/data-laporan", "name": "Data Open CSV & Laporan" },
+    { "path": "/partisipasi", "name": "Partisipasi Warga / Masukan" },
+    { "path": "/tentang", "name": "Tentang AKSINYATA & Cara Baca Peta" },
+    { "path": "/admin/login", "name": "Login Tim Internal" },
+    { "path": "/admin/dashboard", "name": "Admin Dashboard & Verifikasi" }
+  ],
+  "testing_guidelines": {
+    "data_testid_convention": "kebab-case",
+    "mandatory_ids": [
+      "hud-top-strip",
+      "hud-total-projects-metric",
+      "hud-completed-percentage",
+      "sector-toggle-infrastruktur",
+      "sector-toggle-ekonomi",
+      "sector-toggle-pangan",
+      "sector-toggle-pendidikan",
+      "sector-toggle-kesehatan",
+      "sector-toggle-sosial",
+      "sector-toggle-lingkungan",
+      "sector-toggle-layanan",
+      "map-canvas-container",
+      "kecamatan-side-panel",
+      "project-popup-card",
+      "project-status-badge",
+      "admin-login-email-input",
+      "admin-login-password-input",
+      "admin-login-submit-button",
+      "admin-verification-status-pill",
+      "feedback-form-submit-button"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build a clean, highly professional civic technology interface for Kabupaten Tangerang.",
+    "MapLibre GL JS should render an interactive 2.5D view (pitch ~50deg) with dark slate styling and 3D building extrusions, with fallback 2D toggle for mobile devices.",
+    "Ensure all UI labels, stats, dates, and sector titles are in clear Bahasa Indonesia.",
+    "Maintain high contrast on dark surfaces using slate-900 background with translucent slate-800 HUD containers and cyan-400 primary highlights.",
+    "Every dataset element and interactive button MUST include explicit data-testid attributes."
+  ]
+}

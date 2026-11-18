@@ -1,0 +1,1182 @@
+{
+ "kecamatan": [
+  {
+   "id": "balaraja",
+   "name": "Balaraja",
+   "latitude": -6.187,
+   "longitude": 106.411,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022209+00:00",
+   "updated_at": "2026-10-26T06:44:36.022219+00:00"
+  },
+  {
+   "id": "cikupa",
+   "name": "Cikupa",
+   "latitude": -6.252,
+   "longitude": 106.527,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022222+00:00",
+   "updated_at": "2026-10-26T06:44:36.022224+00:00"
+  },
+  {
+   "id": "cisauk",
+   "name": "Cisauk",
+   "latitude": -6.33,
+   "longitude": 106.645,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022226+00:00",
+   "updated_at": "2026-10-26T06:44:36.022228+00:00"
+  },
+  {
+   "id": "cisoka",
+   "name": "Cisoka",
+   "latitude": -6.251,
+   "longitude": 106.444,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022230+00:00",
+   "updated_at": "2026-10-26T06:44:36.022232+00:00"
+  },
+  {
+   "id": "curug",
+   "name": "Curug",
+   "latitude": -6.252,
+   "longitude": 106.566,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022234+00:00",
+   "updated_at": "2026-10-26T06:44:36.022235+00:00"
+  },
+  {
+   "id": "gunung-kaler",
+   "name": "Gunung Kaler",
+   "latitude": -6.139,
+   "longitude": 106.414,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022238+00:00",
+   "updated_at": "2026-10-26T06:44:36.022239+00:00"
+  },
+  {
+   "id": "jambe",
+   "name": "Jambe",
+   "latitude": -6.316,
+   "longitude": 106.483,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022247+00:00",
+   "updated_at": "2026-10-26T06:44:36.022248+00:00"
+  },
+  {
+   "id": "jayanti",
+   "name": "Jayanti",
+   "latitude": -6.207,
+   "longitude": 106.372,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022251+00:00",
+   "updated_at": "2026-10-26T06:44:36.022252+00:00"
+  },
+  {
+   "id": "kelapa-dua",
+   "name": "Kelapa Dua",
+   "latitude": -6.242,
+   "longitude": 106.62,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022254+00:00",
+   "updated_at": "2026-10-26T06:44:36.022256+00:00"
+  },
+  {
+   "id": "kemiri",
+   "name": "Kemiri",
+   "latitude": -6.038,
+   "longitude": 106.479,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022259+00:00",
+   "updated_at": "2026-10-26T06:44:36.022261+00:00"
+  },
+  {
+   "id": "kosambi",
+   "name": "Kosambi",
+   "latitude": -6.097,
+   "longitude": 106.654,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022262+00:00",
+   "updated_at": "2026-10-26T06:44:36.022264+00:00"
+  },
+  {
+   "id": "kresek",
+   "name": "Kresek",
+   "latitude": -6.154,
+   "longitude": 106.388,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022266+00:00",
+   "updated_at": "2026-10-26T06:44:36.022267+00:00"
+  },
+  {
+   "id": "kronjo",
+   "name": "Kronjo",
+   "latitude": -6.071,
+   "longitude": 106.442,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022269+00:00",
+   "updated_at": "2026-10-26T06:44:36.022270+00:00"
+  },
+  {
+   "id": "legok",
+   "name": "Legok",
+   "latitude": -6.299,
+   "longitude": 106.621,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022272+00:00",
+   "updated_at": "2026-10-26T06:44:36.022273+00:00"
+  },
+  {
+   "id": "mauk",
+   "name": "Mauk",
+   "latitude": -6.055,
+   "longitude": 106.549,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022274+00:00",
+   "updated_at": "2026-10-26T06:44:36.022275+00:00"
+  },
+  {
+   "id": "mekar-baru",
+   "name": "Mekar Baru",
+   "latitude": -6.098,
+   "longitude": 106.381,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022277+00:00",
+   "updated_at": "2026-10-26T06:44:36.022278+00:00"
+  },
+  {
+   "id": "pagedangan",
+   "name": "Pagedangan",
+   "latitude": -6.28,
+   "longitude": 106.637,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022280+00:00",
+   "updated_at": "2026-10-26T06:44:36.022281+00:00"
+  },
+  {
+   "id": "pakuhaji",
+   "name": "Pakuhaji",
+   "latitude": -6.117,
+   "longitude": 106.611,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022283+00:00",
+   "updated_at": "2026-10-26T06:44:36.022284+00:00"
+  },
+  {
+   "id": "panongan",
+   "name": "Panongan",
+   "latitude": -6.278,
+   "longitude": 106.546,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022285+00:00",
+   "updated_at": "2026-10-26T06:44:36.022287+00:00"
+  },
+  {
+   "id": "pasar-kemis",
+   "name": "Pasar Kemis",
+   "latitude": -6.199,
+   "longitude": 106.577,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022288+00:00",
+   "updated_at": "2026-10-26T06:44:36.022289+00:00"
+  },
+  {
+   "id": "rajeg",
+   "name": "Rajeg",
+   "latitude": -6.146,
+   "longitude": 106.518,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022291+00:00",
+   "updated_at": "2026-10-26T06:44:36.022292+00:00"
+  },
+  {
+   "id": "sepatan",
+   "name": "Sepatan",
+   "latitude": -6.166,
+   "longitude": 106.58,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022294+00:00",
+   "updated_at": "2026-10-26T06:44:36.022295+00:00"
+  },
+  {
+   "id": "sepatan-timur",
+   "name": "Sepatan Timur",
+   "latitude": -6.164,
+   "longitude": 106.603,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022296+00:00",
+   "updated_at": "2026-10-26T06:44:36.022298+00:00"
+  },
+  {
+   "id": "sindang-jaya",
+   "name": "Sindang Jaya",
+   "latitude": -6.207,
+   "longitude": 106.533,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022299+00:00",
+   "updated_at": "2026-10-26T06:44:36.022300+00:00"
+  },
+  {
+   "id": "solear",
+   "name": "Solear",
+   "latitude": -6.302,
+   "longitude": 106.4,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022302+00:00",
+   "updated_at": "2026-10-26T06:44:36.022303+00:00"
+  },
+  {
+   "id": "sukadiri",
+   "name": "Sukadiri",
+   "latitude": -6.096,
+   "longitude": 106.552,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022304+00:00",
+   "updated_at": "2026-10-26T06:44:36.022306+00:00"
+  },
+  {
+   "id": "sukamulya",
+   "name": "Sukamulya",
+   "latitude": -6.179,
+   "longitude": 106.46,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022307+00:00",
+   "updated_at": "2026-10-26T06:44:36.022308+00:00"
+  },
+  {
+   "id": "teluknaga",
+   "name": "Teluknaga",
+   "latitude": -6.095,
+   "longitude": 106.705,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022311+00:00",
+   "updated_at": "2026-10-26T06:44:36.022312+00:00"
+  },
+  {
+   "id": "tigaraksa",
+   "name": "Tigaraksa",
+   "latitude": -6.254,
+   "longitude": 106.472,
+   "is_approximate": true,
+   "geojson": null,
+   "created_at": "2026-10-26T06:44:36.022314+00:00",
+   "updated_at": "2026-10-26T06:44:36.022316+00:00"
+  }
+ ],
+ "projects": [
+  {
+   "id": "bbf4f732-fbac-4c0f-9715-f4ca84798cc3",
+   "name": "[CONTOH] Rehabilitasi Jalan Poros Balaraja - Kresek",
+   "sector_id": "infrastruktur",
+   "kecamatan_id": "balaraja",
+   "kecamatan_name": "Balaraja",
+   "address": "Area Balaraja, Kabupaten Tangerang",
+   "status": "berjalan",
+   "progress_pct": 65,
+   "latitude": -6.191,
+   "longitude": 106.403,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. Jalan utama lebih mulus, waktu tempuh warga antar-kecamatan berkurang.",
+   "benefit": "Jalan utama lebih mulus, waktu tempuh warga antar-kecamatan berkurang.",
+   "budget": 12500000000,
+   "funding_source": "APBD Kabupaten 2026",
+   "opd": "Dinas PUPR",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "b516a13f-bad4-481f-b23b-8e7fe90d061a",
+   "name": "[CONTOH] Pembangunan Pasar Rakyat Tigaraksa",
+   "sector_id": "ekonomi",
+   "kecamatan_id": "tigaraksa",
+   "kecamatan_name": "Tigaraksa",
+   "address": "Area Tigaraksa, Kabupaten Tangerang",
+   "status": "berjalan",
+   "progress_pct": 40,
+   "latitude": -6.254,
+   "longitude": 106.46799999999999,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. Pedagang UMKM punya tempat jualan tetap dan bersih.",
+   "benefit": "Pedagang UMKM punya tempat jualan tetap dan bersih.",
+   "budget": 8000000000,
+   "funding_source": "APBD Kabupaten 2026",
+   "opd": "Dinas Perindagkop",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "71ab87fe-4e0c-457f-b59e-a843b41cdd55",
+   "name": "[CONTOH] Revitalisasi Irigasi Sawah Kronjo",
+   "sector_id": "pangan",
+   "kecamatan_id": "kronjo",
+   "kecamatan_name": "Kronjo",
+   "address": "Area Kronjo, Kabupaten Tangerang",
+   "status": "selesai",
+   "progress_pct": 100,
+   "latitude": -6.067,
+   "longitude": 106.442,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. Petani dapat air stabil sepanjang tahun untuk 2 kali tanam.",
+   "benefit": "Petani dapat air stabil sepanjang tahun untuk 2 kali tanam.",
+   "budget": 3200000000,
+   "funding_source": "DAK Pertanian 2025",
+   "opd": "Dinas Pertanian",
+   "year": 2025,
+   "start_date": "2025-03-01",
+   "target_end_date": "2025-10-30",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": true
+    },
+    {
+     "label": "Serah Terima",
+     "done": true
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "adf1d5f0-2239-4983-9bc6-9067da474bfd",
+   "name": "[CONTOH] Pembangunan SMPN Baru Pasar Kemis",
+   "sector_id": "pendidikan",
+   "kecamatan_id": "pasar-kemis",
+   "kecamatan_name": "Pasar Kemis",
+   "address": "Area Pasar Kemis, Kabupaten Tangerang",
+   "status": "rencana",
+   "progress_pct": 0,
+   "latitude": -6.202999999999999,
+   "longitude": 106.581,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. Anak di Pasar Kemis tidak perlu lagi sekolah jauh ke kecamatan lain.",
+   "benefit": "Anak di Pasar Kemis tidak perlu lagi sekolah jauh ke kecamatan lain.",
+   "budget": 15000000000,
+   "funding_source": "APBD Kabupaten 2026",
+   "opd": "Dinas Pendidikan",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": false
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "9f4a8ce2-7590-485f-adda-041ff87c7053",
+   "name": "[CONTOH] Peningkatan Puskesmas Rajeg",
+   "sector_id": "kesehatan",
+   "kecamatan_id": "rajeg",
+   "kecamatan_name": "Rajeg",
+   "address": "Area Rajeg, Kabupaten Tangerang",
+   "status": "berjalan",
+   "progress_pct": 55,
+   "latitude": -6.146,
+   "longitude": 106.51,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. Layanan rawat inap 24 jam untuk warga Rajeg dan sekitarnya.",
+   "benefit": "Layanan rawat inap 24 jam untuk warga Rajeg dan sekitarnya.",
+   "budget": 6500000000,
+   "funding_source": "APBD Kabupaten 2026",
+   "opd": "Dinas Kesehatan",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "57a9da90-a368-49f7-9b59-07e3a60b171a",
+   "name": "[CONTOH] Bantuan Rumah Layak Huni Mauk",
+   "sector_id": "sosial",
+   "kecamatan_id": "mauk",
+   "kecamatan_name": "Mauk",
+   "address": "Area Mauk, Kabupaten Tangerang",
+   "status": "berjalan",
+   "progress_pct": 30,
+   "latitude": -6.051,
+   "longitude": 106.545,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. 80 keluarga tidak mampu dapat perbaikan atap, lantai, dan sanitasi.",
+   "benefit": "80 keluarga tidak mampu dapat perbaikan atap, lantai, dan sanitasi.",
+   "budget": 2400000000,
+   "funding_source": "APBD Kabupaten 2026",
+   "opd": "Dinas Sosial",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "08392ba8-6957-4776-b3ee-b27f999f7f50",
+   "name": "[CONTOH] Normalisasi Kali Cisadane Hilir Kosambi",
+   "sector_id": "lingkungan",
+   "kecamatan_id": "kosambi",
+   "kecamatan_name": "Kosambi",
+   "address": "Area Kosambi, Kabupaten Tangerang",
+   "status": "berjalan",
+   "progress_pct": 25,
+   "latitude": -6.101,
+   "longitude": 106.654,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. Risiko banjir di permukiman pinggir sungai berkurang.",
+   "benefit": "Risiko banjir di permukiman pinggir sungai berkurang.",
+   "budget": 9000000000,
+   "funding_source": "DAK Air 2026",
+   "opd": "Dinas PUPR",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "93a0868e-657d-4c92-b1b4-c8e54e09a534",
+   "name": "[CONTOH] Mal Pelayanan Publik Satu Atap Tigaraksa",
+   "sector_id": "layanan",
+   "kecamatan_id": "tigaraksa",
+   "kecamatan_name": "Tigaraksa",
+   "address": "Area Tigaraksa, Kabupaten Tangerang",
+   "status": "selesai",
+   "progress_pct": 100,
+   "latitude": -6.254,
+   "longitude": 106.476,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. Warga mengurus KTP, akta, dan izin usaha di satu tempat.",
+   "benefit": "Warga mengurus KTP, akta, dan izin usaha di satu tempat.",
+   "budget": 11000000000,
+   "funding_source": "APBD Kabupaten 2024",
+   "opd": "Setda / Dinas Dukcapil",
+   "year": 2025,
+   "start_date": "2025-03-01",
+   "target_end_date": "2025-10-30",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": true
+    },
+    {
+     "label": "Serah Terima",
+     "done": true
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "5a969b33-9849-47a3-8c0c-622f9eff23ee",
+   "name": "[CONTOH] Perbaikan Jembatan Cikupa",
+   "sector_id": "infrastruktur",
+   "kecamatan_id": "cikupa",
+   "kecamatan_name": "Cikupa",
+   "address": "Area Cikupa, Kabupaten Tangerang",
+   "status": "selesai",
+   "progress_pct": 100,
+   "latitude": -6.248,
+   "longitude": 106.519,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. Jalur logistik industri lebih aman, tidak ada lagi antrean kemacetan.",
+   "benefit": "Jalur logistik industri lebih aman, tidak ada lagi antrean kemacetan.",
+   "budget": 4800000000,
+   "funding_source": "APBD Kabupaten 2024",
+   "opd": "Dinas PUPR",
+   "year": 2025,
+   "start_date": "2025-03-01",
+   "target_end_date": "2025-10-30",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": true
+    },
+    {
+     "label": "Serah Terima",
+     "done": true
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "371da19e-9662-40f6-8df6-13b921855716",
+   "name": "[CONTOH] Pelatihan Digital UMKM Curug",
+   "sector_id": "ekonomi",
+   "kecamatan_id": "curug",
+   "kecamatan_name": "Curug",
+   "address": "Area Curug, Kabupaten Tangerang",
+   "status": "berjalan",
+   "progress_pct": 70,
+   "latitude": -6.255999999999999,
+   "longitude": 106.562,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. 150 pelaku UMKM bisa jualan online dan terima pembayaran digital.",
+   "benefit": "150 pelaku UMKM bisa jualan online dan terima pembayaran digital.",
+   "budget": 850000000,
+   "funding_source": "APBD Kabupaten 2026",
+   "opd": "Dinas Perindagkop",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "632db92d-622c-4461-81aa-bb92aa085bf2",
+   "name": "[CONTOH] Sentra Tani Hortikultura Legok",
+   "sector_id": "pangan",
+   "kecamatan_id": "legok",
+   "kecamatan_name": "Legok",
+   "address": "Area Legok, Kabupaten Tangerang",
+   "status": "rencana",
+   "progress_pct": 0,
+   "latitude": -6.299,
+   "longitude": 106.621,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. Kebun sayur kolektif dengan rumah pengemasan untuk petani lokal.",
+   "benefit": "Kebun sayur kolektif dengan rumah pengemasan untuk petani lokal.",
+   "budget": 5200000000,
+   "funding_source": "APBD Kabupaten 2026",
+   "opd": "Dinas Pertanian",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": false
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "216f48fe-b07d-4f90-b3cf-b1b3bf628208",
+   "name": "[CONTOH] Beasiswa SMK Vokasi Pagedangan",
+   "sector_id": "pendidikan",
+   "kecamatan_id": "pagedangan",
+   "kecamatan_name": "Pagedangan",
+   "address": "Area Pagedangan, Kabupaten Tangerang",
+   "status": "berjalan",
+   "progress_pct": 85,
+   "latitude": -6.276000000000001,
+   "longitude": 106.641,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. 500 siswa SMK dapat subsidi biaya praktik dan sertifikasi.",
+   "benefit": "500 siswa SMK dapat subsidi biaya praktik dan sertifikasi.",
+   "budget": 1750000000,
+   "funding_source": "APBD Kabupaten 2026",
+   "opd": "Dinas Pendidikan",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "18dfb0d2-bedc-4fae-a016-44e2c547bef8",
+   "name": "[CONTOH] Posyandu Ramah Anak Teluknaga",
+   "sector_id": "kesehatan",
+   "kecamatan_id": "teluknaga",
+   "kecamatan_name": "Teluknaga",
+   "address": "Area Teluknaga, Kabupaten Tangerang",
+   "status": "selesai",
+   "progress_pct": 100,
+   "latitude": -6.098999999999999,
+   "longitude": 106.697,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. 12 posyandu dapat alat timbang digital dan ruang bermain balita.",
+   "benefit": "12 posyandu dapat alat timbang digital dan ruang bermain balita.",
+   "budget": 1200000000,
+   "funding_source": "APBD Kabupaten 2025",
+   "opd": "Dinas Kesehatan",
+   "year": 2025,
+   "start_date": "2025-03-01",
+   "target_end_date": "2025-10-30",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": true
+    },
+    {
+     "label": "Serah Terima",
+     "done": true
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "9e283025-1619-4444-a6d5-ab9e3d8f3694",
+   "name": "[CONTOH] Perlindungan Lansia Panongan",
+   "sector_id": "sosial",
+   "kecamatan_id": "panongan",
+   "kecamatan_name": "Panongan",
+   "address": "Area Panongan, Kabupaten Tangerang",
+   "status": "rencana",
+   "progress_pct": 0,
+   "latitude": -6.278,
+   "longitude": 106.542,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. Pendataan dan bantuan rutin untuk lansia di bawah garis kemiskinan.",
+   "benefit": "Pendataan dan bantuan rutin untuk lansia di bawah garis kemiskinan.",
+   "budget": 980000000,
+   "funding_source": "APBD Kabupaten 2026",
+   "opd": "Dinas Sosial",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": false
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  },
+  {
+   "id": "9283ec75-ba0a-4821-a261-9fe63be01063",
+   "name": "[CONTOH] Air Bersih Perpipaan Kemiri",
+   "sector_id": "lingkungan",
+   "kecamatan_id": "kemiri",
+   "kecamatan_name": "Kemiri",
+   "address": "Area Kemiri, Kabupaten Tangerang",
+   "status": "berjalan",
+   "progress_pct": 45,
+   "latitude": -6.034000000000001,
+   "longitude": 106.479,
+   "description": "Proyek contoh untuk mendemokan tampilan peta AKSINYATA. 600 KK pesisir utara dapat sambungan air bersih layak minum.",
+   "benefit": "600 KK pesisir utara dapat sambungan air bersih layak minum.",
+   "budget": 7300000000,
+   "funding_source": "DAK Air 2026",
+   "opd": "PDAM / Dinas PUPR",
+   "year": 2026,
+   "start_date": "2025-03-01",
+   "target_end_date": "2026-12-31",
+   "stages": [
+    {
+     "label": "Perencanaan",
+     "done": true
+    },
+    {
+     "label": "Lelang",
+     "done": true
+    },
+    {
+     "label": "Pelaksanaan",
+     "done": false
+    },
+    {
+     "label": "Serah Terima",
+     "done": false
+    }
+   ],
+   "before_photo_url": "",
+   "after_photo_url": "",
+   "verification_status": "tayang",
+   "verification_note": "Data contoh. Verifikasi OPD belum diperlukan.",
+   "last_edited_by": "system-seed",
+   "last_edited_at": "2026-10-26T06:44:36.079635+00:00",
+   "created_at": "2026-10-26T06:44:36.079635+00:00",
+   "updated_at": "2026-10-26T06:44:36.079635+00:00"
+  }
+ ],
+ "field_updates": [
+  {
+   "id": "e7088f26-1435-4874-a4df-0343fe396175",
+   "title": "[CONTOH] Pengecoran Jalan Poros Balaraja dimulai",
+   "body": "Tim lapangan memulai pengecoran segmen 1,2 km. Progres saat ini 65%.",
+   "photo_url": "/seed/kabar1.jpg",
+   "video_url": null,
+   "sector_id": "infrastruktur",
+   "kecamatan_id": "balaraja",
+   "date": "2026-10-24T06:44:36.090555+00:00",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.090547+00:00",
+   "updated_at": "2026-10-26T06:44:36.090547+00:00"
+  },
+  {
+   "id": "895178a4-13ed-47cc-9f6e-168745e6fbd2",
+   "title": "[CONTOH] Panen perdana irigasi Kronjo",
+   "body": "Petani Kronjo panen dengan hasil 6,2 ton/ha setelah irigasi direvitalisasi.",
+   "photo_url": "/seed/kabar2.jpg",
+   "video_url": null,
+   "sector_id": "pangan",
+   "kecamatan_id": "kronjo",
+   "date": "2026-10-16T06:44:36.090560+00:00",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.090547+00:00",
+   "updated_at": "2026-10-26T06:44:36.090547+00:00"
+  },
+  {
+   "id": "d0a79adc-df7a-49ba-99ca-fe647ca28696",
+   "title": "[CONTOH] MPP Tigaraksa layani 320 warga per hari",
+   "body": "Mal Pelayanan Publik di Tigaraksa melayani rata-rata 320 warga per hari pada bulan ini.",
+   "photo_url": "/seed/kabar3.jpg",
+   "video_url": null,
+   "sector_id": "layanan",
+   "kecamatan_id": "tigaraksa",
+   "date": "2026-10-16T06:44:36.090560+00:00",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.090547+00:00",
+   "updated_at": "2026-10-26T06:44:36.090547+00:00"
+  }
+ ],
+ "issues": [
+  {
+   "id": "2439e9fd-2ad6-4c10-b814-c760dedb8e32",
+   "title": "[CONTOH] Genangan air di Jalan Raya Serang KM 24",
+   "sector_id": "infrastruktur",
+   "kecamatan_id": "cikupa",
+   "description": "Warga melaporkan genangan air setinggi 30 cm setiap hujan deras di sekitar KM 24.",
+   "handling_steps": "Dinas PUPR menurunkan tim untuk membersihkan saluran drainase dan menambah lubang biopori.",
+   "status": "ditangani",
+   "latitude": -6.252,
+   "longitude": 106.527,
+   "date": "2026-10-26T06:44:36.103153+00:00",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.103153+00:00",
+   "updated_at": "2026-10-26T06:44:36.103153+00:00"
+  },
+  {
+   "id": "9132f754-ec9c-4491-9116-611f0081ad35",
+   "title": "[CONTOH] Lampu PJU mati di Pasar Kemis",
+   "sector_id": "layanan",
+   "kecamatan_id": "pasar-kemis",
+   "description": "Beberapa lampu penerangan jalan umum padam di sekitar Pasar Kemis.",
+   "handling_steps": "Dishub & PLN jadwalkan penggantian lampu dan panel surya minggu ini.",
+   "status": "rencana",
+   "latitude": -6.199,
+   "longitude": 106.577,
+   "date": "2026-10-26T06:44:36.103153+00:00",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.103153+00:00",
+   "updated_at": "2026-10-26T06:44:36.103153+00:00"
+  }
+ ],
+ "indicators": [
+  {
+   "id": "4e137e88-9371-4d02-aaab-8b002e2b8b60",
+   "sector_id": "infrastruktur",
+   "label": "[CONTOH] Panjang Jalan Mantap",
+   "unit": "km",
+   "realisasi": 1250,
+   "target": 1500,
+   "trend": "naik",
+   "data_date": "2026-01-31",
+   "note": "Nilai contoh untuk demo tampilan.",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.114017+00:00",
+   "updated_at": "2026-10-26T06:44:36.114017+00:00"
+  },
+  {
+   "id": "9ebe027b-ba44-4bb2-b557-cd3067c0e405",
+   "sector_id": "ekonomi",
+   "label": "[CONTOH] UMKM Terdaftar",
+   "unit": "unit",
+   "realisasi": 4800,
+   "target": 6000,
+   "trend": "naik",
+   "data_date": "2026-01-31",
+   "note": "Nilai contoh untuk demo tampilan.",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.114017+00:00",
+   "updated_at": "2026-10-26T06:44:36.114017+00:00"
+  },
+  {
+   "id": "bcaa3143-3aa8-45e7-95c1-5c07b10dbc65",
+   "sector_id": "pangan",
+   "label": "[CONTOH] Luas Sawah Irigasi Teknis",
+   "unit": "ha",
+   "realisasi": 3200,
+   "target": 4000,
+   "trend": "naik",
+   "data_date": "2026-01-31",
+   "note": "Nilai contoh untuk demo tampilan.",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.114017+00:00",
+   "updated_at": "2026-10-26T06:44:36.114017+00:00"
+  },
+  {
+   "id": "048c18e1-4e29-4da8-b632-0b9e1ca4eb75",
+   "sector_id": "pendidikan",
+   "label": "[CONTOH] APK SMP Sederajat",
+   "unit": "%",
+   "realisasi": 92,
+   "target": 98,
+   "trend": "naik",
+   "data_date": "2026-01-31",
+   "note": "Nilai contoh untuk demo tampilan.",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.114017+00:00",
+   "updated_at": "2026-10-26T06:44:36.114017+00:00"
+  },
+  {
+   "id": "1d5dffc8-e92c-48aa-883f-be43f77f7495",
+   "sector_id": "kesehatan",
+   "label": "[CONTOH] Puskesmas Rawat Inap",
+   "unit": "unit",
+   "realisasi": 18,
+   "target": 24,
+   "trend": "naik",
+   "data_date": "2026-01-31",
+   "note": "Nilai contoh untuk demo tampilan.",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.114017+00:00",
+   "updated_at": "2026-10-26T06:44:36.114017+00:00"
+  },
+  {
+   "id": "ed6b7ee5-22e1-4eb8-8e76-3729b29e58ff",
+   "sector_id": "sosial",
+   "label": "[CONTOH] Keluarga Penerima Manfaat",
+   "unit": "KK",
+   "realisasi": 7200,
+   "target": 9000,
+   "trend": "naik",
+   "data_date": "2026-01-31",
+   "note": "Nilai contoh untuk demo tampilan.",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.114017+00:00",
+   "updated_at": "2026-10-26T06:44:36.114017+00:00"
+  },
+  {
+   "id": "77e71a50-71c8-43b1-b968-fb78e90fc381",
+   "sector_id": "lingkungan",
+   "label": "[CONTOH] Cakupan Air Bersih Perpipaan",
+   "unit": "%",
+   "realisasi": 48,
+   "target": 70,
+   "trend": "naik",
+   "data_date": "2026-01-31",
+   "note": "Nilai contoh untuk demo tampilan.",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.114017+00:00",
+   "updated_at": "2026-10-26T06:44:36.114017+00:00"
+  },
+  {
+   "id": "ac52d4cc-b68f-48c2-954c-f43241c5971c",
+   "sector_id": "layanan",
+   "label": "[CONTOH] Layanan MPP Harian",
+   "unit": "orang",
+   "realisasi": 320,
+   "target": 500,
+   "trend": "naik",
+   "data_date": "2026-01-31",
+   "note": "Nilai contoh untuk demo tampilan.",
+   "verification_status": "tayang",
+   "created_at": "2026-10-26T06:44:36.114017+00:00",
+   "updated_at": "2026-10-26T06:44:36.114017+00:00"
+  }
+ ],
+ "settings": [
+  {
+   "id": "singleton",
+   "pemkab_complaint_url": "https://lapor.go.id/",
+   "pemkab_complaint_label": "Kanal pengaduan resmi Pemkab Tangerang",
+   "methodology": "Data proyek dikumpulkan dari OPD terkait, diverifikasi tim AKSINYATA, lalu ditayangkan. Setiap angka selalu disertai tanggal data terakhir.",
+   "updated_at": "2026-10-26T07:19:51.258732+00:00"
+  }
+ ]
+}
