@@ -1,5 +1,5 @@
 import { Progress } from "@/components/ui/progress";
-import { formatDateID } from "@/lib/constants";
+import { formatDateID, STATUS_LIST } from "@/lib/constants";
 
 export default function HudStrip({ stats, tilt, setTilt }) {
   if (!stats) stats = { total: 0, rencana: 0, berjalan: 0, selesai: 0, percent_selesai: 0, kecamatan_covered: 0, kecamatan_total: 29, last_updated: null };
@@ -17,14 +17,14 @@ export default function HudStrip({ stats, tilt, setTilt }) {
       <div className="flex-1 min-w-[160px]">
         <div className="flex items-center justify-between">
           <span className="text-[10px] uppercase tracking-widest text-slate-400 mono">Selesai</span>
-          <span data-testid="hud-completed-percentage" className="mono text-xs font-semibold text-emerald-400">{stats.percent_selesai}%</span>
+          <span data-testid="hud-completed-percentage" className="mono text-xs font-semibold text-teal-300">{stats.percent_selesai}%</span>
         </div>
         <Progress value={stats.percent_selesai} className="h-1.5 mt-1 bg-slate-800" />
       </div>
       <div className="flex items-center gap-3 order-last sm:order-none w-full sm:w-auto">
-        <StatusChip label="Rencana" count={stats.rencana} hex="#64748B" />
-        <StatusChip label="Berjalan" count={stats.berjalan} hex="#F59E0B" />
-        <StatusChip label="Selesai" count={stats.selesai} hex="#10B981" />
+        <StatusChip label="Rencana" count={stats.rencana} hex={STATUS_LIST[0].hex} />
+        <StatusChip label="Berjalan" count={stats.berjalan} hex={STATUS_LIST[1].hex} />
+        <StatusChip label="Selesai" count={stats.selesai} hex={STATUS_LIST[2].hex} />
       </div>
       <div className="hidden sm:block min-w-[120px]">
         <div className="text-[10px] uppercase tracking-widest text-slate-400 mono">Kecamatan</div>
