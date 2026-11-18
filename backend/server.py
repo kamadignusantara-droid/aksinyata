@@ -38,8 +38,30 @@ except ModuleNotFoundError:
     import seed as seed_mod  # type: ignore
     import storage as storage_mod  # type: ignore
 
-mongo_url = os.environ.get("MONGO_URL") or os.environ["MONGODB_URI"]
-client = AsyncIOMotorClient(mongo_url, serverSelectionTimeoutMS=10000)
+def _normalize_mongo_url(url: str) -> str:
+    """Escape the username/password in a MongoDB URI (RFC 3986) and drop
+    leftover <placeholder> brackets, so a password with symbols pasted
+    straight from Atlas still works."""
+    from urllib.parse import quote, unquote
+
+    url = url.strip().strip('"').strip("'")
+    scheme, sep, rest = url.partition("://")
+    if not sep:
+        return url
+    at = rest.rfind("@")  # the host part follows the LAST '@'
+    if at == -1:
+        return url
+    userinfo, hosts_and_path = rest[:at], rest[at + 1:]
+    user, colon, pwd = userinfo.partition(":")
+    if pwd.startswith("<") and pwd.endswith(">"):
+        pwd = pwd[1:-1]
+    user = quote(unquote(user), safe="")
+    pwd = quote(unquote(pwd), safe="")
+    return f"{scheme}://{user}{':' + pwd if colon else ''}@{hosts_and_path}"
+
+
+mongo_url = _normalize_mongo_url(os.environ.get("MONGO_URL") or os.environ["MONGODB_URI"])
+client =AsyncIOMotorClient(mongo_url, serverSelectionTimeoutMS=10000)
 db = client[os.environ.get("DB_NAME", "aksinyata")]
 
 app = FastAPI(title="AKSINYATA API")
