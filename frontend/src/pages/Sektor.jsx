@@ -19,7 +19,7 @@ export default function Sektor() {
       <Navbar />
       <main className="max-w-[1200px] mx-auto px-6 py-10">
         <div className="mb-8">
-          <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono">Sektor Pembangunan</div>
+          <div className="text-[10px] uppercase tracking-widest text-violet-300 mono">Sektor Pembangunan</div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-50 mt-1">
             8 sektor yang dipantau
           </h1>
@@ -35,7 +35,7 @@ export default function Sektor() {
                 key={s.id}
                 to={`/sektor/${s.id}`}
                 data-testid={`sektor-card-${s.id}`}
-                className="rounded-xl bg-slate-900 border border-slate-800 p-5 hover:border-cyan-500/40 transition-colors group"
+                className="rounded-xl bg-slate-900 border border-slate-800 p-5 hover:border-violet-500/50 transition-colors group"
               >
                 <div className="w-10 h-10 rounded-lg grid place-items-center mb-3 border border-slate-700" style={{ background: `${s.color}20`, borderColor: `${s.color}66` }}>
                   <Icon size={18} style={{ color: s.color }} />
@@ -43,7 +43,7 @@ export default function Sektor() {
                 <div className="text-slate-50 font-semibold leading-tight">{s.name}</div>
                 <div className="mt-3 flex items-center justify-between">
                   <span className="text-[10px] uppercase tracking-widest text-slate-500 mono">Proyek Tayang</span>
-                  <span className="mono font-bold text-cyan-300">{counts[s.id] || 0}</span>
+                  <span className="mono font-bold text-teal-300">{counts[s.id] || 0}</span>
                 </div>
               </Link>
             );

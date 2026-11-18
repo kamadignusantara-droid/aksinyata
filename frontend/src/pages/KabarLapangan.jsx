@@ -19,7 +19,7 @@ export default function KabarLapangan() {
     <div className="min-h-screen bg-slate-950">
       <Navbar />
       <main className="max-w-[1100px] mx-auto px-6 py-10">
-        <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono">Kabar Lapangan</div>
+        <div className="text-[10px] uppercase tracking-widest text-violet-300 mono">Kabar Lapangan</div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-50 mt-1">Catatan lapangan & Respons Isu</h1>
         <div className="grid gap-6 mt-8 lg:grid-cols-3">
           <section className="lg:col-span-2 space-y-4">
@@ -56,7 +56,7 @@ export default function KabarLapangan() {
                 <p className="text-slate-300 text-xs mt-1.5">{iss.description}</p>
                 {iss.handling_steps && (
                   <div className="mt-2 pt-2 border-t border-slate-800 text-[11px] text-slate-400">
-                    <span className="mono text-cyan-300">Penanganan:</span> {iss.handling_steps}
+                    <span className="mono text-teal-300">Penanganan:</span> {iss.handling_steps}
                   </div>
                 )}
                 <div className="mt-2 text-[10px] mono text-slate-500">Status: {iss.status} • {formatDateID(iss.date)}</div>

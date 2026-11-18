@@ -82,7 +82,7 @@ export default function Beranda() {
               data-testid="kecamatan-search-button"
               className="w-full hud-strong rounded-lg px-3 py-2.5 text-left text-sm text-slate-300 flex items-center gap-2 hover:text-slate-100"
             >
-              <Search size={14} className="text-cyan-400" />
+              <Search size={14} className="text-teal-400" />
               Cari kecamatan…
             </button>
           </PopoverTrigger>

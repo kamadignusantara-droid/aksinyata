@@ -32,7 +32,7 @@ export default function ProyekDetail() {
     <div className="min-h-screen bg-slate-950">
       <Navbar />
       <main className="max-w-[1100px] mx-auto px-6 py-8">
-        <Link to="/proyek" className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-cyan-300 mb-4">
+        <Link to="/proyek" className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-teal-300 mb-4">
           <ArrowLeft size={14} /> Semua proyek
         </Link>
 
@@ -93,7 +93,7 @@ export default function ProyekDetail() {
 
         {p.benefit && (
           <section className="mt-6 rounded-xl bg-slate-900 border border-slate-800 p-5">
-            <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono mb-2">Manfaat Warga</div>
+            <div className="text-[10px] uppercase tracking-widest text-violet-300 mono mb-2">Manfaat Warga</div>
             <p className="text-slate-200">{p.benefit}</p>
           </section>
         )}
@@ -106,7 +106,7 @@ export default function ProyekDetail() {
 
         <div className="mt-8 flex gap-3">
           <Link to={`/partisipasi?project=${p.id}`}>
-            <Button data-testid="btn-beri-masukan" className="bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold">Beri masukan</Button>
+            <Button data-testid="btn-beri-masukan" className="bg-gradient-to-r from-violet-600 via-blue-600 to-teal-500 hover:brightness-110 text-white font-semibold">Beri masukan</Button>
           </Link>
         </div>
       </main>

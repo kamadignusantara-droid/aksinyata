@@ -27,7 +27,7 @@ export default function Wilayah() {
     <div className="min-h-screen bg-slate-950">
       <Navbar />
       <main className="max-w-[1200px] mx-auto px-6 py-10">
-        <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono">Wilayah</div>
+        <div className="text-[10px] uppercase tracking-widest text-violet-300 mono">Wilayah</div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-50 mt-1">29 Kecamatan Kabupaten Tangerang</h1>
         <p className="text-slate-400 mt-2 max-w-2xl">
           Pilih kecamatan untuk melihat ringkasan 8 sektor dan proyek yang sedang berjalan di sana.
@@ -47,10 +47,10 @@ export default function Wilayah() {
               key={k.id}
               to={`/wilayah/${k.id}`}
               data-testid={`wilayah-card-${k.id}`}
-              className="rounded-xl bg-slate-900 border border-slate-800 p-4 hover:border-cyan-500/40 transition-colors"
+              className="rounded-xl bg-slate-900 border border-slate-800 p-4 hover:border-violet-500/50 transition-colors"
             >
               <div className="flex items-center gap-2 mb-1">
-                <MapPin size={14} className="text-cyan-400" />
+                <MapPin size={14} className="text-teal-400" />
                 <span className="text-slate-50 font-semibold">{k.name}</span>
                 {k.is_approximate && (
                   <span className="ml-auto flex items-center gap-1 text-[10px] mono text-amber-400"><AlertTriangle size={10} /> approx</span>

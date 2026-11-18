@@ -41,7 +41,7 @@ export default function Proyek() {
     <div className="min-h-screen bg-slate-950">
       <Navbar />
       <main className="max-w-[1300px] mx-auto px-6 py-10">
-        <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono">Daftar Proyek</div>
+        <div className="text-[10px] uppercase tracking-widest text-violet-300 mono">Daftar Proyek</div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-50 mt-1">Semua Proyek Tayang</h1>
         <p className="text-slate-400 mt-2">Saring menurut sektor, kecamatan, status, dan tahun.</p>
 
@@ -90,7 +90,7 @@ export default function Proyek() {
             return (
               <li key={p.id} data-testid={`proyek-row-${p.id}`} className="rounded-lg bg-slate-900 border border-slate-800 p-4 flex items-start gap-4">
                 <div className="flex-1 min-w-0">
-                  <Link to={`/proyek/${p.id}`} className="text-slate-100 font-medium hover:text-cyan-300">{p.name}</Link>
+                  <Link to={`/proyek/${p.id}`} className="text-slate-100 font-medium hover:text-teal-300">{p.name}</Link>
                   <div className="mt-1 text-[11px] mono text-slate-500">
                     {sectorById(p.sector_id).short} • {p.kecamatan_name || p.kecamatan_id} • {formatIDR(p.budget)} • {p.year || "-"}
                   </div>

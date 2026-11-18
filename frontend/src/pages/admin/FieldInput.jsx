@@ -43,7 +43,7 @@ const ImageField = ({ value, onChange, testId }) => {
       {value ? <img src={absUrl(value)} alt="" className="w-20 h-14 object-cover rounded border border-slate-700" data-testid={`${testId}-preview`} /> : <div className="w-20 h-14 rounded border border-dashed border-slate-700 grid place-items-center text-[10px] text-slate-500">Belum ada</div>}
       <div className="flex flex-col gap-1">
         <input type="file" accept="image/*" disabled={busy} onChange={(e) => upload(e.target.files?.[0])} className="text-xs text-slate-400 file:mr-2 file:rounded file:border-0 file:bg-slate-800 file:px-2 file:py-1 file:text-slate-200" data-testid={testId} />
-        {busy && <span className="text-xs text-cyan-300">Mengunggah...</span>}
+        {busy && <span className="text-xs text-teal-300">Mengunggah...</span>}
         {value && !busy && <button type="button" onClick={() => onChange("")} className="text-xs text-rose-300 text-left" data-testid={`${testId}-remove`}>Hapus foto</button>}
       </div>
     </div>

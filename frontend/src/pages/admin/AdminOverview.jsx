@@ -14,7 +14,7 @@ const ResourceCard = ({ r }) => {
   const api = useAdminApi();
   const { data = [] } = useQuery({ queryKey: ["admin", r.key], queryFn: async () => (await api.get(`/admin/${r.key}`)).data });
   return (
-    <Link to={r.to} className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 hover:border-cyan-500/40 transition-colors" data-testid={`overview-card-${r.key}`}>
+    <Link to={r.to} className="rounded-xl border border-slate-800 bg-slate-900/60 p-5 hover:border-violet-500/50 transition-colors" data-testid={`overview-card-${r.key}`}>
       <div className="flex items-baseline justify-between">
         <div className="text-sm text-slate-400">{r.label}</div>
         <div className="text-3xl font-bold text-slate-50 mono">{data.length}</div>
@@ -37,7 +37,7 @@ export default function AdminOverview() {
   const baru = fb.filter((f) => (f.status || "baru") === "baru").length;
   return (
     <div data-testid="admin-overview">
-      <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono">Ringkasan</div>
+      <div className="text-[10px] uppercase tracking-widest text-violet-300 mono">Ringkasan</div>
       <h1 className="text-2xl sm:text-3xl font-bold text-slate-50 mt-1">Panel Admin AKSINYATA</h1>
       <p className="text-sm text-slate-400 mt-2 max-w-2xl">Alur kerja: <b className="text-slate-200">Draft</b> → <b className="text-indigo-300">Sudah dicek ke OPD</b> → <b className="text-emerald-300">Tayang</b>. Hanya item berstatus Tayang yang terlihat publik.</p>
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4 mt-8">

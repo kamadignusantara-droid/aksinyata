@@ -42,7 +42,7 @@ const SideNav = ({ onNavigate }) => {
     <nav className="flex flex-col gap-1 p-3 h-full">
       {NAV.map(({ to, label, icon: Icon, end, id }) => (
         <NavLink key={to} to={to} end={end} onClick={onNavigate} data-testid={`admin-nav-${id}`}
-          className={({ isActive }) => `flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors ${isActive ? "bg-cyan-500/10 text-cyan-300" : "text-slate-300 hover:bg-slate-800/70"}`}>
+          className={({ isActive }) => `flex items-center gap-2.5 px-3 py-2 rounded-md text-sm transition-colors ${isActive ? "bg-violet-500/15 text-teal-300" : "text-slate-300 hover:bg-slate-800/70"}`}>
           <Icon size={16} /> {label}
         </NavLink>
       ))}
@@ -87,10 +87,10 @@ const Shell = () => {
 
 const Brand = () => (
   <div className="px-5 h-16 flex items-center gap-2 border-b border-slate-800">
-    <div className="w-7 h-7 rounded-md bg-cyan-500/20 border border-cyan-500/40 grid place-items-center text-cyan-300 font-black text-sm">A</div>
+    <div className="w-7 h-7 rounded-md bg-violet-500/20 border border-violet-500/40 grid place-items-center text-teal-300 font-black text-sm">A</div>
     <div className="leading-tight">
       <div className="font-bold text-slate-50 text-sm">AKSINYATA</div>
-      <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono">Panel Admin</div>
+      <div className="text-[10px] uppercase tracking-widest text-violet-300 mono">Panel Admin</div>
     </div>
   </div>
 );

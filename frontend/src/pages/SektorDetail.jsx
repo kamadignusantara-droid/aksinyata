@@ -29,7 +29,7 @@ export default function SektorDetail() {
     <div className="min-h-screen bg-slate-950">
       <Navbar />
       <main className="max-w-[1200px] mx-auto px-6 py-8">
-        <Link to="/sektor" className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-cyan-300 mb-4">
+        <Link to="/sektor" className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-teal-300 mb-4">
           <ArrowLeft size={14} /> Semua sektor
         </Link>
         <div className="flex items-center gap-3 mb-2">
@@ -56,7 +56,7 @@ export default function SektorDetail() {
                 <div key={i.id} data-testid={`indicator-${i.id}`} className="rounded-xl bg-slate-900 border border-slate-800 p-4">
                   <div className="text-xs text-slate-400">{i.label}</div>
                   <div className="flex items-baseline gap-2 mt-1">
-                    <div className="mono font-bold text-2xl text-cyan-300">{i.realisasi.toLocaleString("id-ID")}</div>
+                    <div className="mono font-bold text-2xl text-teal-300">{i.realisasi.toLocaleString("id-ID")}</div>
                     <div className="mono text-xs text-slate-500">{i.unit}</div>
                     <Trend size={14} className="ml-auto text-emerald-400" />
                   </div>
@@ -82,7 +82,7 @@ export default function SektorDetail() {
               return (
                 <li key={p.id} className="rounded-lg bg-slate-900 border border-slate-800 p-4 flex items-start gap-4">
                   <div className="flex-1 min-w-0">
-                    <Link to={`/proyek/${p.id}`} className="text-slate-100 font-medium hover:text-cyan-300">{p.name}</Link>
+                    <Link to={`/proyek/${p.id}`} className="text-slate-100 font-medium hover:text-teal-300">{p.name}</Link>
                     <div className="mt-1 text-[11px] mono text-slate-500">{p.kecamatan_name || p.kecamatan_id} • {formatIDR(p.budget)} • {p.opd || "-"}</div>
                     <Progress value={p.progress_pct || 0} className="h-1 mt-2 bg-slate-800 max-w-md" />
                   </div>

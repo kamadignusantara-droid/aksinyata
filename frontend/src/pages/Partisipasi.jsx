@@ -49,7 +49,7 @@ export default function Partisipasi() {
     <div className="min-h-screen bg-slate-950">
       <Navbar />
       <main className="max-w-[900px] mx-auto px-6 py-12">
-        <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono">Partisipasi Warga</div>
+        <div className="text-[10px] uppercase tracking-widest text-violet-300 mono">Partisipasi Warga</div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-50 mt-1">Beri masukan</h1>
         <p className="text-slate-400 mt-2 max-w-2xl">
           Tulis apa yang Anda lihat di lapangan, saran, atau pertanyaan. Nama tidak wajib. Masukan ini masuk ke tim AKSINYATA untuk ditindaklanjuti bersama OPD.
@@ -109,7 +109,7 @@ export default function Partisipasi() {
               type="submit"
               disabled={submitting}
               data-testid="feedback-form-submit-button"
-              className="bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-semibold"
+              className="bg-gradient-to-r from-violet-600 via-blue-600 to-teal-500 hover:brightness-110 text-white font-semibold"
             >
               {submitting ? "Mengirim…" : "Kirim Masukan"}
             </Button>
@@ -119,7 +119,7 @@ export default function Partisipasi() {
         {settings?.pemkab_complaint_url && (
           <div className="mt-6 rounded-xl bg-slate-900 border border-slate-800 p-5 text-sm">
             <div className="text-slate-300">{settings.pemkab_complaint_label || "Kanal pengaduan resmi"}</div>
-            <a href={settings.pemkab_complaint_url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200 mt-1">
+            <a href={settings.pemkab_complaint_url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-teal-300 hover:text-teal-300 mt-1">
               {settings.pemkab_complaint_url} <ExternalLink size={13} />
             </a>
           </div>

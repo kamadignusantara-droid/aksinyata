@@ -31,10 +31,10 @@ export default function WilayahDetail() {
     <div className="min-h-screen bg-slate-950">
       <Navbar />
       <main className="max-w-[1200px] mx-auto px-6 py-8">
-        <Link to="/wilayah" className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-cyan-300 mb-4">
+        <Link to="/wilayah" className="inline-flex items-center gap-1.5 text-sm text-slate-400 hover:text-teal-300 mb-4">
           <ArrowLeft size={14} /> Daftar kecamatan
         </Link>
-        <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono">Kecamatan</div>
+        <div className="text-[10px] uppercase tracking-widest text-violet-300 mono">Kecamatan</div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-50">{kec?.name || "…"}</h1>
         {kec?.is_approximate && (
           <div className="flex items-center gap-1.5 mt-2 text-[11px] mono text-amber-400">
@@ -80,7 +80,7 @@ export default function WilayahDetail() {
                 {grouped[st].map((p) => (
                   <li key={p.id} className="rounded-lg bg-slate-900 border border-slate-800 p-4 flex items-start gap-4">
                     <div className="flex-1 min-w-0">
-                      <Link to={`/proyek/${p.id}`} className="text-slate-100 font-medium hover:text-cyan-300">{p.name}</Link>
+                      <Link to={`/proyek/${p.id}`} className="text-slate-100 font-medium hover:text-teal-300">{p.name}</Link>
                       <div className="mt-1 text-[11px] mono text-slate-500">{sectorById(p.sector_id).short} • {formatIDR(p.budget)} • {p.opd || "-"}</div>
                       <Progress value={p.progress_pct || 0} className="h-1 mt-2 bg-slate-800 max-w-md" />
                     </div>

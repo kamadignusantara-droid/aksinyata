@@ -26,7 +26,7 @@ export default function AdminSettings() {
         <div><Label className="text-xs text-slate-400">Link kanal pengaduan resmi Pemkab</Label><Input className="mt-1.5 bg-slate-900 border-slate-700" value={form.pemkab_complaint_url} onChange={set("pemkab_complaint_url")} data-testid="settings-complaint-url" /></div>
         <div><Label className="text-xs text-slate-400">Label tombol pengaduan</Label><Input className="mt-1.5 bg-slate-900 border-slate-700" value={form.pemkab_complaint_label} onChange={set("pemkab_complaint_label")} data-testid="settings-complaint-label" /></div>
         <div><Label className="text-xs text-slate-400">Metodologi data (tampil di Data & Laporan)</Label><Textarea rows={6} className="mt-1.5 bg-slate-900 border-slate-700" value={form.methodology} onChange={set("methodology")} data-testid="settings-methodology" /></div>
-        <Button onClick={save} className="w-fit bg-cyan-500 text-slate-950 hover:bg-cyan-400" data-testid="settings-save-btn">Simpan pengaturan</Button>
+        <Button onClick={save} className="w-fit bg-gradient-to-r from-violet-600 via-blue-600 to-teal-500 hover:brightness-110 text-white" data-testid="settings-save-btn">Simpan pengaturan</Button>
       </div>
     </div>
   );

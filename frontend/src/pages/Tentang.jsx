@@ -7,7 +7,7 @@ export default function Tentang() {
     <div className="min-h-screen bg-slate-950">
       <Navbar />
       <main className="max-w-[900px] mx-auto px-6 py-12">
-        <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono">Tentang AKSINYATA</div>
+        <div className="text-[10px] uppercase tracking-widest text-violet-300 mono">Tentang AKSINYATA</div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-50 mt-1">Melihat pembangunan sebagaimana adanya</h1>
         <p className="text-slate-300 mt-4 leading-relaxed">
           AKSINYATA adalah portal transparansi pembangunan Kabupaten Tangerang. Tujuannya satu: siapa pun — warga, jurnalis, mahasiswa — bisa melihat apa yang sedang dikerjakan Pemkab Tangerang, di mana, sampai mana kemajuannya, dan apa manfaatnya untuk warga.
@@ -56,7 +56,7 @@ export default function Tentang() {
 function Row({ term, def }) {
   return (
     <div className="rounded-lg bg-slate-900 border border-slate-800 p-3">
-      <dt className="text-cyan-300 mono text-xs uppercase tracking-widest">{term}</dt>
+      <dt className="text-violet-300 mono text-xs uppercase tracking-widest">{term}</dt>
       <dd className="text-slate-300 mt-1">{def}</dd>
     </div>
   );

@@ -53,7 +53,7 @@ const FormDialog = ({ open, onClose, fields, initial, onSave, title }) => {
           ))}
           <DialogFooter className="sm:col-span-2 mt-2">
             <Button type="button" variant="outline" onClick={onClose} data-testid="crud-form-cancel">Batal</Button>
-            <Button type="submit" disabled={saving} className="bg-cyan-500 text-slate-950 hover:bg-cyan-400" data-testid="crud-form-submit">{saving ? "Menyimpan..." : "Simpan"}</Button>
+            <Button type="submit" disabled={saving} className="bg-gradient-to-r from-violet-600 via-blue-600 to-teal-500 hover:brightness-110 text-white" data-testid="crud-form-submit">{saving ? "Menyimpan..." : "Simpan"}</Button>
           </DialogFooter>
         </form>
       </DialogContent>
@@ -124,7 +124,7 @@ export default function CrudPage({ title, subtitle, resource, fields, columns, e
         </div>
         <div className="flex flex-wrap gap-2">
           {toolbar}
-          <Button onClick={() => setEditing({ ...emptyItem })} className="bg-cyan-500 text-slate-950 hover:bg-cyan-400" data-testid={`add-${resource}-btn`}><Plus size={16} className="mr-1" /> Tambah {singular}</Button>
+          <Button onClick={() => setEditing({ ...emptyItem })} className="bg-gradient-to-r from-violet-600 via-blue-600 to-teal-500 hover:brightness-110 text-white" data-testid={`add-${resource}-btn`}><Plus size={16} className="mr-1" /> Tambah {singular}</Button>
         </div>
       </div>
 
@@ -135,7 +135,7 @@ export default function CrudPage({ title, subtitle, resource, fields, columns, e
         </div>
         {[{ id: "all", label: "Semua" }, ...VERIFICATION_LIST].map((v) => (
           <button key={v.id} onClick={() => setVf(v.id)} data-testid={`crud-filter-${v.id}`}
-            className={`px-3 py-1.5 rounded-md text-xs border transition-colors ${vf === v.id ? "border-cyan-500/60 text-cyan-300 bg-cyan-500/10" : "border-slate-700 text-slate-400 hover:text-slate-200"}`}>
+            className={`px-3 py-1.5 rounded-md text-xs border transition-colors ${vf === v.id ? "border-violet-500/60 text-teal-300 bg-violet-500/15" : "border-slate-700 text-slate-400 hover:text-slate-200"}`}>
             {v.label} <span className="mono ml-1 opacity-70">{v.id === "all" ? data.length : data.filter((d) => d.verification_status === v.id).length}</span>
           </button>
         ))}

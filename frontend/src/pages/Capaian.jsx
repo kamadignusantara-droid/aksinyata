@@ -19,7 +19,7 @@ export default function Capaian() {
     <div className="min-h-screen bg-slate-950">
       <Navbar />
       <main className="max-w-[1200px] mx-auto px-6 py-10">
-        <div className="text-[10px] uppercase tracking-widest text-cyan-300 mono">Capaian & Target</div>
+        <div className="text-[10px] uppercase tracking-widest text-violet-300 mono">Capaian & Target</div>
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-slate-50 mt-1">Target vs Realisasi</h1>
         <p className="text-slate-400 mt-2 max-w-2xl">
           Perbandingan nilai realisasi dengan target per sektor. Setiap angka mencantumkan tanggal data.

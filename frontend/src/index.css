@@ -24,19 +24,19 @@ code, pre, .mono {
         --card-foreground: 210 40% 98%;
         --popover: 217 33% 11%;
         --popover-foreground: 210 40% 98%;
-        --primary: 189 94% 43%;
-        --primary-foreground: 222 47% 6%;
+        --primary: 258 90% 66%;
+        --primary-foreground: 0 0% 100%;
         --secondary: 217 33% 17%;
         --secondary-foreground: 210 40% 98%;
         --muted: 217 33% 15%;
         --muted-foreground: 215 20% 65%;
-        --accent: 189 94% 43%;
+        --accent: 173 80% 40%;
         --accent-foreground: 222 47% 6%;
         --destructive: 0 72% 51%;
         --destructive-foreground: 210 40% 98%;
         --border: 217 33% 20%;
         --input: 217 33% 17%;
-        --ring: 189 94% 43%;
+        --ring: 258 90% 66%;
         --radius: 0.6rem;
     }
 }
@@ -55,3 +55,18 @@ code, pre, .mono {
         radial-gradient(ellipse at top, rgba(6, 182, 212, 0.08), transparent 50%),
         radial-gradient(ellipse at bottom, rgba(99, 102, 241, 0.06), transparent 50%);
 }
+
+/* AKSINYATA brand bar: ungu -> biru -> tosca line under the navbar and above the footer */
+
+.aks-navbar::after,
+.aks-footer::before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #7C3AED, #2563EB 50%, #14B8A6);
+    pointer-events: none;
+}
+.aks-navbar::after { bottom: 0; }
+.aks-footer { position: relative; }
+.aks-footer::before { top: 0; }

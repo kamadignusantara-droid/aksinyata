@@ -4,7 +4,7 @@ import { ClerkProvider } from "@clerk/react";
 
 const appearance = {
   variables: {
-    colorPrimary: "#06B6D4",
+    colorPrimary: "#8B5CF6",
     colorBackground: "#0F172A",
     colorForeground: "#F8FAFC",
     colorInput: "#1E293B",

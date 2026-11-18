@@ -61,7 +61,7 @@ export default function AdminFeedback() {
       <div className="flex flex-wrap gap-2 mt-6">
         {[...STATUSES, { id: "all", label: "Semua" }].map((s) => (
           <button key={s.id} onClick={() => setFilter(s.id)} data-testid={`feedback-filter-${s.id}`}
-            className={`px-3 py-1.5 rounded-md text-xs border ${filter === s.id ? "border-cyan-500/60 text-cyan-300 bg-cyan-500/10" : "border-slate-700 text-slate-400"}`}>
+            className={`px-3 py-1.5 rounded-md text-xs border ${filter === s.id ? "border-violet-500/60 text-teal-300 bg-violet-500/15" : "border-slate-700 text-slate-400"}`}>
             {s.label} <span className="mono opacity-70 ml-1">{s.id === "all" ? data.length : data.filter((f) => (f.status || "baru") === s.id).length}</span>
           </button>
         ))}
