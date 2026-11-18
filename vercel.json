@@ -4,6 +4,9 @@
   "installCommand": "cd frontend && yarn install --non-interactive",
   "buildCommand": "cd frontend && yarn build",
   "outputDirectory": "frontend/build",
+  "regions": [
+    "sin1"
+  ],
   "functions": {
     "api/index.py": {
       "includeFiles": "backend/**",
@@ -11,7 +14,13 @@
     }
   },
   "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/index" },
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
+    {
+      "source": "/api/:path*",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
   ]
 }
